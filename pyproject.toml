@@ -1,0 +1,11 @@
+[project]
+name = "vibe-check"
+version = "0.1.0"
+description = "Vibe Check is a Flask-based web application that allows users to upload an outfit image and receive a detailed fashion analysis. The app evaluates how well the outfit matches a specific event, location, and the user's fashion goals. It also provides recommendations for improvements and nearby fashion shops or boutiques."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "flask>=3.1.0",
+    "google-generativeai>=0.8.5",
+    "python-dotenv>=1.1.0",
+]
