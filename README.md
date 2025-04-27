@@ -30,13 +30,13 @@ Vibe Check is a Flask-based web application that allows users to upload an outfi
 
 2. Create a virtual environment and activate it:
      ```bash
-     python3 -m venv venv
-     source venv/bin/activate  # On Windows: venv\Scripts\activate
+     uv venv
+     source .venv/bin/activate
      ```
 
 3. Install the required dependencies:
      ```bash
-     pip install -r requirements.txt
+     uv pip sync pyproject.toml
      ```
 
 4. Create a `.env` file in the project root and add the following environment variables:
